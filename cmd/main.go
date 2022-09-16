@@ -1,5 +1,11 @@
 package main
 
+import (
+	"html/template"
+	"log"
+	"net/http"
+)
+
 func main(){
 	HandleRequest()
 }
@@ -52,7 +58,7 @@ func homePage(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	tmpl.ExecuteTemplate(w, "home")
+	tmpl.ExecuteTemplate(w, "home", "Test 01")
 }
 
 func errorHandler(w http.ResponseWriter, status int, errMessage string) {
