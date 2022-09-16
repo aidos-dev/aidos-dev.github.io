@@ -16,7 +16,7 @@ func HandleRequest(){
 
 	// Server
 	server := http.Server{
-		Addr: ":3300532.github.io"
+		Addr: ":3300532.github.io",
 		Handler: router,
 	}
 
@@ -55,7 +55,7 @@ func homePage(w http.ResponseWriter, r *http.Request) {
 	tmpl.ExecuteTemplate(w, "home")
 }
 
-func errorHandler(w http.ResponseWriter, status int, errMessage) {
+func errorHandler(w http.ResponseWriter, status int, errMessage string) {
 	tmpl, err := template.ParseFiles(
 		"templates/errorPages.html",
 	)
