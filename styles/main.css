@@ -1,4 +1,7 @@
 body {
     background: rgb(29, 29, 32);
-    color: rgb(136, 136, 143);
+}
+
+h1 {
+    color: rgb(200, 250, 202);
 }
