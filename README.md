@@ -4,9 +4,7 @@
 
 In order to visit the web page just follow the link below
 
-```
 https://3300532.github.io/
-```
 
 I hope you will like it ;)
 
