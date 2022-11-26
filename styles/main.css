@@ -4,6 +4,8 @@ body {
 
 /* Add a black background color to the top navigation */
 .topnav {
+  width: 700px;
+  background-color: black;
   display: flex;
   justify-content: center;
   border: 1px solid yellow;
