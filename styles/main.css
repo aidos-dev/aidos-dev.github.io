@@ -4,19 +4,22 @@ body {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: rgb(122, 122, 122);
-  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
 }
     
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: center;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav ul {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: space-evenly;
 }
     
 /* Change the color of links on hover */
@@ -33,8 +36,6 @@ body {
 
 h1 {
   color: rgb(200, 250, 202);
+  text-align: center;
 }
 
-a {
-  color:rgb(200, 250, 202)
-}
