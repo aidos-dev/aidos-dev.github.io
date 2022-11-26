@@ -28,7 +28,7 @@ body {
   padding: 0;
   text-decoration: none;
   color:rgb(200, 250, 202);
-  padding: 12px;
+  margin: 12px;
   border-radius: 20%;
 }
 
@@ -61,8 +61,8 @@ h1 {
   }
 
   nav ul a {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
 }
