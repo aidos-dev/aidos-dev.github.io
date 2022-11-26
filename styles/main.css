@@ -22,7 +22,7 @@ body {
 }
     
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav ul a {
   display: inline;
   margin: 0;
   padding: 0;
@@ -60,7 +60,7 @@ h1 {
       align-items: center;
   }
 
-  nav a {
+  nav ul a {
     padding-top: 0px;
     padding-bottom: 0px;
   }
