@@ -9,11 +9,13 @@ body {
   display: flex;
   justify-content: center;
   border: 1px solid yellow;
-  border-radius: 25% 10%;
+  border-radius: 40px 15px;
 }
 
 .topnav ul {
   list-style-type: none;
+  height: 100%;
+  width: fit-content;
   flex: 1;
   max-width: 50%;
   display: flex;
@@ -23,6 +25,7 @@ body {
     
 /* Style the links inside the navigation bar */
 .topnav ul a {
+  height: 100%;
   display: inline-block;
   margin: 0;
   padding: 0;
