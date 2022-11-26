@@ -10,6 +10,7 @@ html {
 body {
   background: #1b263b;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -55,7 +56,7 @@ header {
 }
 
 h1 {
-  display: block;
+  display: inline-block;
   color: rgb(200, 250, 202);
   text-align: center;
 }
