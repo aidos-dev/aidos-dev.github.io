@@ -6,6 +6,7 @@ body {
 .topnav {
   display: flex;
   justify-content: center;
+  border: 1px solid yellow;
 }
     
 /* Style the links inside the navigation bar */
