@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   border: 1px solid yellow;
-  border-radius: 30%;
+  border-radius: 25%;
 }
 
 .topnav ul {
@@ -29,7 +29,7 @@ body {
   text-decoration: none;
   color:rgb(200, 250, 202);
   padding: 12px;
-  border-radius: 15%;
+  border-radius: 20%;
 }
 
 
