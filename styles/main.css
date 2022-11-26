@@ -6,6 +6,7 @@ body {
 .topnav {
   display: flex;
   justify-content: center;
+  max-width: 60%;
   border: 1px solid yellow;
 }
 
