@@ -24,6 +24,7 @@ body {
   max-width: 50%;
   display: flex;
   justify-content: space-evenly;
+  border: 1px solid rgb(255, 0, 0);
 }
     
 /* Change the color of links on hover */
