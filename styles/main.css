@@ -6,7 +6,6 @@ body {
 .topnav {
   display: flex;
   justify-content: center;
-  max-width: 60%;
   border: 1px solid yellow;
 }
 
@@ -27,7 +26,7 @@ body {
   text-decoration: none;
   color:rgb(200, 250, 202);
   padding: 12px;
-  border-radius: 10%;
+  border-radius: 15%;
 }
 
 
@@ -56,6 +55,10 @@ h1 {
   nav ul {
       flex-direction: column;
       align-items: center;
+  }
+
+  nav a {
+    padding: 0px;
   }
 
 }
