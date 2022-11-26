@@ -1,4 +1,4 @@
-html {
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -34,11 +34,11 @@ header {
 
 .topnav ul li a {
   display: block;
-  color:rgb(200, 250, 202);
+  color:rgb(41, 46, 41);
   font-size: 20px;
   padding: 10px 25px;
   border-radius: 10px;
-  transition: 0.2s;
+  transition: 0.3s;
   margin: 0 5px;
 }
    
@@ -51,7 +51,8 @@ header {
     
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: rgb(1, 146, 6);
+  opacity: 0.85;
   color: white;
 }
 
@@ -89,12 +90,15 @@ h1 {
   }
   .topnav {
     height: 0;
-    position: absolute;
-    top: 80px;
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 3%;
+    top: 90px;
     left: 0;
     right: 0;
-    width: 100vw;
-    background:rgb(30, 32, 30);
+    width: 85vw;
+    background:rgba(173, 177, 173, 0.712);
+    border-radius: 25px;
     transition: 0.5s;
     overflow: hidden;
   }
