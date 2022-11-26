@@ -34,7 +34,7 @@ header {
 
 .topnav ul li a {
   display: block;
-  color:rgb(41, 46, 41);
+  color:rgb(200, 250, 202);
   font-size: 20px;
   padding: 10px 25px;
   border-radius: 10px;
@@ -123,6 +123,6 @@ h1 {
 
   .topnav ul li a {
     margin-bottom: 12px;
-  
+    color:rgb(41, 46, 41);
   }
 }
