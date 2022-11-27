@@ -80,6 +80,8 @@ h1 {
 @media (max-width: 900px){
   .hamburger {
     display: block;
+    position: absolute;
+    right: 150px;
     cursor: pointer;
   }
   .hamburger .line {
