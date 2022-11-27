@@ -81,7 +81,7 @@ h1 {
   .hamburger {
     display: block;
     position: absolute;
-    right: 7px;
+    right: 8px;
     cursor: pointer;
   }
   .hamburger .line {
