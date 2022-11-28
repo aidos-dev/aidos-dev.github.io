@@ -17,20 +17,28 @@ body {
 header {
   width: 100%;
   height: 80px;
-  margin-top: 10px;
   background: #1b263b;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 100px;
+  
+  /* justify-content: space-between; */
 }
 
 .hamburger {
   display: none;
 }
 
+.topnav {
+  width: fit-content;
+  /* position: absolute;
+  left: 50%; */
+}
+
 .topnav ul {
   display: flex;
   list-style-type: none;
+  width: fit-content;
 }
 
 .topnav ul li a {
@@ -96,7 +104,8 @@ h1 {
     top: 5%;
     right: 5%;
     height: 0;
-    width: 50vw;
+    width: fit-content;
+    padding: 0 5px;
     background:rgb(0, 138, 143);
     border-radius: 25px;
     transition: 0.5s;
