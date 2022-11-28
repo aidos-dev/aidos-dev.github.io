@@ -91,20 +91,16 @@ h1 {
     margin: 6px 0;
   }
   .topnav {
+    position: absolute;
+    top: 5%;
+    right: 5%;
     height: 0;
-    display: inline-block;
-    margin-top: 13%;
-    margin-left: 45%;
-    top: 90px;
-    /* left: 0;
-    right: 0; */
     width: 50vw;
     background:rgb(0, 138, 143);
     border-radius: 25px;
     transition: 0.5s;
     overflow: hidden;
-    z-index:10;
-  }
+]  }
 
   .topnav.active {
     height: 330px;
@@ -114,7 +110,7 @@ h1 {
   .topnav ul {
     display: block;
     width: fit-content;
-    margin: 80px auto 0 auto;
+    margin: 65px auto 0 auto;
     text-align: center;
     transition: 0.5s;
   
