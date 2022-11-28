@@ -103,6 +103,7 @@ h1 {
     border-radius: 25px;
     transition: 0.5s;
     overflow: hidden;
+    z-index:10;
   }
 
   .topnav.active {
