@@ -94,11 +94,9 @@ h1 {
     display: block;
     position: absolute;
     right: 8px;
-    
-  }
-  .hamburger:hover {
     cursor: url('/images/IronManHand.png'), auto;
   }
+  
   .hamburger .line {
     width: 30px;
     height: 3px;
