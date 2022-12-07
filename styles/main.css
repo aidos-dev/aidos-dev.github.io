@@ -5,7 +5,7 @@
   /* list-style: none; */
   box-sizing: border-box;
   font-family: "Google Sans Regular", sans-serif;
-  cursor: url('/images/IronManHand.png'), auto;
+  
 }
 
 body {
@@ -58,6 +58,7 @@ header {
   background-color: #ddd;
   color: black;
   border-radius: 15px 8px;
+  cursor: url('/images/IronManHand.png'), auto;
 }
     
 /* Add a color to the active/current link */
@@ -93,6 +94,9 @@ h1 {
     display: block;
     position: absolute;
     right: 8px;
+    
+  }
+  .hamburger:hover {
     cursor: url('/images/IronManHand.png'), auto;
   }
   .hamburger .line {
