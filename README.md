@@ -4,8 +4,8 @@
 
 In order to visit the web page just follow the link below
 
-https://3300532.github.io/
+https://aidos-tech.github.io/
 
 I hope you will like it ;)
 
-![black cat](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlCmZNZTRr2c33iinneBtyyW2NjFkOSpGOLw&usqp=CAU)
+![black cat](/images/blackCat.jpeg)
