@@ -4,7 +4,7 @@
 
 In order to visit the web page just follow the link below
 
-https://aidos-tech.github.io/
+https://aidos-dev.github.io/
 
 I hope you will like it ;)
 
